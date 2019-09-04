@@ -7,3 +7,11 @@ function step63() {
     sentence += " and I hope to learn more and more!";
     document.getElementById("Concantenate").innerHTML = sentence;
 }
+
+var x = step67(750, .033814);
+document.getElementById("divide").innerHTML = x;
+
+function step67(a, b) {
+    return a / b;
+}
+
