@@ -1,3 +1,12 @@
+function Call_Loop() {
+    var text = "";
+    var l = 0; 
+    while (l < 10) {
+        text += "<br>The number is " + l; l++;
+    }
+    document.getElementById("Loop").innerHTML = text;
+}
+
 function str_funct() {
     var str = "Listen.  Before I had my coffee I didn't know how awesome I was going to be today either."
     var n = str.length;
